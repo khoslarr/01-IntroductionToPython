@@ -40,7 +40,7 @@ for k in range(28):
     ronald.right(k)
 
 phillip = rg.SimpleTurtle()
-phillip.speed = 5
+phillip.speed = 6
 phillip.pen = rg.Pen('blue',5)
 phillip.backward(100)
 for z in range(50):
