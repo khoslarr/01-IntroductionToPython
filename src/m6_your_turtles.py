@@ -10,7 +10,7 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 ########################################################################
 
 ########################################################################
-# TODO: 2.
+# DONE: 2.
 #   You should have RUN the  m5e_loopy_turtles  module and READ its code.
 #   (Do so now if you have not already done so.)
 #
@@ -42,8 +42,9 @@ for k in range(28):
 phillip = rg.SimpleTurtle()
 phillip.speed = 5
 phillip.pen = rg.Pen('blue',5)
-for z in range(10):
-    phillip.backward(5)
-    phillip.left(z)
+phillip.backward(100)
+for z in range(50):
+    phillip.left(100)
+    phillip.forward(z)
 
 window.close_on_mouse_click()
